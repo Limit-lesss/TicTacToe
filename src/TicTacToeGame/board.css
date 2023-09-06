@@ -1,0 +1,31 @@
+.board-container{
+    /* border: 2px solid black; */
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+.board-row{
+    /* border: 2px solid rgb(46, 20, 188); */
+    flex: 1;
+    display: flex;
+}
+.winner-block{
+    margin: auto;
+    color: rgb(33, 144, 144);
+    font-size: 45px;
+}
+.playAgain-btn{
+    display: block;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid aquamarine;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: aquamarine;
+}

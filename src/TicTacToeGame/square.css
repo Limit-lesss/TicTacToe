@@ -1,0 +1,8 @@
+.square{
+    border: 2px solid green;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}  
